@@ -1,0 +1,19 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "authors": [
+    "jyek <justinyek@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "jquery": "~2.1.4"
+  }
+}
