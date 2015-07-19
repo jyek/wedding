@@ -1469,17 +1469,37 @@ li {
 /* line 4, ../sass/templates/_common.scss */
 .logo-container {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 40px;
+  top: 80px;
+  left: 50%;
+  padding-top: 66px;
+  margin-left: -160px;
+  height: 320px;
+  width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-family: "Nixie One", cursive, sans-serif;
+  opacity: 0.85;
   z-index: 100;
+  -webkit-border-radius: 160px;
+  -moz-border-radius: 160px;
+  border-radius: 160px;
+  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
 }
-@media (min-width: 720px) {
-  /* line 4, ../sass/templates/_common.scss */
-  .logo-container {
-    padding-top: 66px;
-  }
+.logo-container .title {
+  font-size: 27px;
+  line-height: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #10658c;
+}
+.logo-container .subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* line 14, ../sass/templates/_common.scss */
 .logo-container img {

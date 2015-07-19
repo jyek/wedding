@@ -28,16 +28,16 @@
               initMobile();
               doPageTransition();
               $('.main').fadeIn(1000);
-            }, 2800);
+            }, 0);
           });
-        }, 2000);
+        }, 0);
       });
     }
 
     function doPageTransition(){
       $('.loading-logo').addClass('is-fading');
       $('.loading-banner').addClass('is-fading');
-      $('.loading-section').animate({ height: 0 }, 1000);
+      $('.loading-section').animate({ height: 0 }, 0);
       //setTimeout(function() { $('body').removeClass('no-scroll'); }, 1000);
     }
 
