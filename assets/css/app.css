@@ -725,7 +725,7 @@ li {
 .hamburger {
   display: block;
   position: absolute;
-  top: 0;
+  top: 8px;
   left: 13px;
   cursor: pointer;
 }
@@ -1129,6 +1129,7 @@ p a:hover {
 /* line 52, ../sass/components/_article.scss */
 .article p {
   margin-bottom: 1.4em;
+  font-size: 1.5em;
 }
 
 /* line 2, ../sass/components/_navigation.scss */
@@ -1316,7 +1317,7 @@ p a:hover {
 }
 /* line 116, ../sass/components/_navigation.scss */
 .header-logo img {
-  width: 100%;
+  width: 70%;
 }
 
 /* line 120, ../sass/components/_navigation.scss */
@@ -1471,7 +1472,7 @@ li {
   position: absolute;
   top: 80px;
   left: 50%;
-  padding-top: 66px;
+  padding-top: 40px;
   margin-left: -160px;
   height: 320px;
   width: 320px;
@@ -1479,7 +1480,7 @@ li {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
   font-family: "Nixie One", cursive, sans-serif;
-  opacity: 0.85;
+  opacity: 0.6;
   z-index: 100;
   -webkit-border-radius: 160px;
   -moz-border-radius: 160px;
@@ -1634,13 +1635,13 @@ li {
 @media (min-width: 720px) {
   /* line 13, ../sass/templates/_accomodation.scss */
   .accomodation-section .image-left {
-    background: url(../img/home/building-left.png) no-repeat left bottom;
+    /*background: url(../img/home/building-left.png) no-repeat left bottom;*/
   }
 }
 @media (min-width: 720px) {
   /* line 18, ../sass/templates/_accomodation.scss */
   .accomodation-section .image-right {
-    background: url(../img/home/building-right.png) no-repeat right bottom;
+    /*background: url(../img/home/building-right.png) no-repeat right bottom;*/
   }
 }
 /* line 23, ../sass/templates/_accomodation.scss */
@@ -1681,7 +1682,7 @@ li {
 @media (min-width: 720px) {
   /* line 44, ../sass/templates/_accomodation.scss */
   .accomodation-section .article h3 {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 }
 /* line 50, ../sass/templates/_accomodation.scss */
@@ -2016,7 +2017,7 @@ li {
 @media (min-width: 720px) {
   /* line 207, ../sass/templates/_on-the-day.scss */
   .on-the-day-section .two-column-holder .two-column-holder__column-one li:first-child {
-    margin-bottom: 395px;
+    margin-bottom: 200px;
   }
   /* line 210, ../sass/templates/_on-the-day.scss */
   .on-the-day-section .two-column-holder .two-column-holder__column-one li:before {
@@ -2034,7 +2035,7 @@ li {
 @media (min-width: 720px) {
   /* line 226, ../sass/templates/_on-the-day.scss */
   .on-the-day-section .two-column-holder .two-column-holder__column-two li:first-child {
-    margin-top: 40px;
+    margin-top: 200px;
   }
   /* line 229, ../sass/templates/_on-the-day.scss */
   .on-the-day-section .two-column-holder .two-column-holder__column-two li:before {

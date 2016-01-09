@@ -103,10 +103,12 @@
   function initCountdown() {
     var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
     var today = new Date();
-    var secondDate = new Date(2016,3,19);
+    var secondDate = new Date(2016,2,19);
 
     var diffDays = Math.round(Math.abs((today.getTime() - secondDate.getTime())/(oneDay)));
     $('.countdown__number').text(diffDays);
+    if (diffDays === 1)
+      $('.countdown__text').text('day to go');
   }
 
   function initBannerList() {
